@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TrueGrade</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<h1>TrueGrade</h1>
+<p>Is your kid actually learning — or just letting AI do the homework?</p>
+</header>
+<section id="login">
+<input type="password" id="token" placeholder="Paste Canvas token">
+<button id="loadLive">Load my grades</button>
+<button id="loadDemo">Use demo student</button>
+</section>
+<main id="dashboard"></main>
+<section id="parentView"></section>
+<script src="data.js"></script>
+<script src="engine.js"></script>
+<script src="dashboard.js"></script>
+<script src="parent.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
