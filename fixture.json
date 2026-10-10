@@ -1,0 +1,67 @@
+{
+  "student": "Demo Student",
+  "courses": [
+    {
+      "courseName": "Algebra II",
+      "groups": [
+        {
+          "name": "Homework",
+          "assignments": [
+            { "name": "HW 1", "score": 95, "possible": 100, "submitted": true, "due_at": "2026-08-28" },
+            { "name": "HW 2", "score": 92, "possible": 100, "submitted": true, "due_at": "2026-09-04" },
+            { "name": "HW 3", "score": 96, "possible": 100, "submitted": true, "due_at": "2026-09-11" },
+            { "name": "HW 4", "score": 0, "possible": 100, "submitted": false, "due_at": "2026-09-18" },
+            { "name": "HW 5", "score": 94, "possible": 100, "submitted": true, "due_at": "2026-09-25" },
+            { "name": "HW 6", "score": 93, "possible": 100, "submitted": true, "due_at": "2026-10-02" }
+          ]
+        },
+        {
+          "name": "Exams",
+          "assignments": [
+            { "name": "Quiz 1", "score": 68, "possible": 100, "submitted": true, "due_at": "2026-09-06" },
+            { "name": "Midterm", "score": 61, "possible": 100, "submitted": true, "due_at": "2026-10-03" }
+          ]
+        }
+      ]
+    },
+    {
+      "courseName": "English 101",
+      "groups": [
+        {
+          "name": "Homework",
+          "assignments": [
+            { "name": "Essay draft 1", "score": 88, "possible": 100, "submitted": true, "due_at": "2026-09-05" },
+            { "name": "Reading responses", "score": 90, "possible": 100, "submitted": true, "due_at": "2026-09-19" },
+            { "name": "Essay draft 2", "score": 86, "possible": 100, "submitted": true, "due_at": "2026-10-01" }
+          ]
+        },
+        {
+          "name": "Exams",
+          "assignments": [
+            { "name": "Midterm exam", "score": 82, "possible": 100, "submitted": true, "due_at": "2026-10-04" }
+          ]
+        }
+      ]
+    },
+    {
+      "courseName": "Biology",
+      "groups": [
+        {
+          "name": "Homework",
+          "assignments": [
+            { "name": "Lab report 1", "score": 91, "possible": 100, "submitted": true, "due_at": "2026-09-08" },
+            { "name": "Chapter questions", "score": 93, "possible": 100, "submitted": true, "due_at": "2026-09-22" },
+            { "name": "Lab report 2", "score": 89, "possible": 100, "submitted": true, "due_at": "2026-10-05" }
+          ]
+        },
+        {
+          "name": "Exams",
+          "assignments": [
+            { "name": "Unit test 1", "score": 76, "possible": 100, "submitted": true, "due_at": "2026-09-15" },
+            { "name": "Unit test 2", "score": 72, "possible": 100, "submitted": true, "due_at": "2026-10-06" }
+          ]
+        }
+      ]
+    }
+  ]
+}
